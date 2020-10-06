@@ -124,7 +124,7 @@ Renvoi un message d'accueil personnalisé en fonction du nom entré en paramètr
 
 *Exemple de requête*
 
-`127.0.0.1:3000/get?name=https://jsonplaceholder.typicode.com/photos/1`
+`127.0.0.1:3000/get?url=https://jsonplaceholder.typicode.com/photos/1`
 
 *Exemple de retour*
 
