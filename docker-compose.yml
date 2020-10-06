@@ -1,0 +1,14 @@
+version: '3'
+services:
+  nodejs_part2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nodejs_part2
+    volumes:
+     - ./:/app
+    restart: on-failure
+    stdin_open: true
+    tty: true
+    ports:
+     - '3000:3000'
